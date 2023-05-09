@@ -4,12 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import webstudio from "../../Assets/Projects/webstudio.png";
 import barbershop from "../../Assets/Projects/barbershop.png";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-// import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import icecream from "../../Assets/Projects/icecream.png";
+import bookshop from "../../Assets/Projects/bookshop.png";
+import imgsearch from "../../Assets/Projects/imgsearch.png";
+import britlex from "../../Assets/Projects/britlex.png";
+
 
 function Projects() {
   return (
@@ -28,7 +27,7 @@ function Projects() {
               imgPath={webstudio}
               isBlog={false}
               title="Web Studio"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              // description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink="https://github.com/AlenaLarinaAL/goit-markup-hw-08"
               demoLink="https://alenalarinaal.github.io/goit-markup-hw-08/"
             />
@@ -39,55 +38,54 @@ function Projects() {
               imgPath={barbershop}
               isBlog={false}
               title="BarberShop"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              // description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              ghLink="https://github.com/AlenaLarinaAL/barbershop"
+              demoLink="https://alenalarinaal.github.io/barbershop/"
             />
           </Col>
         
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={icecream}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="IceCream"
+              // description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              ghLink="https://github.com/AlenaLarinaAL/ice-cream"
+              demoLink="https://oleksandrpm.github.io/ice-cream/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={bookshop}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="BookShopApplication"
+              // description="Reading books is very popular all over the world, but it is not always possible to carry a printed copy with you. Online bookstore is the application which written in the Java Script programming language is solution to this problem."
+              ghLink="https://github.com/AlenaLarinaAL/team-proj-js-book-app"
+              demoLink="https://yevhenii2022.github.io/team-proj-js-book-app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={imgsearch}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Images Search App"
+              // description=" Using Java Scipt language processing to track the input string and search for images that come from the backend to any user's imagination. This application, written in Java script, is a mini analogue of the modern and world-famous Pixabay. Code and markdown editor build with HTML5, CSS and JavaScript."
+              ghLink="https://github.com/AlenaLarinaAL/goit-js-hw-11"
+              demoLink="https://alenalarinaal.github.io/goit-js-hw-11/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={britlex}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Britlex Language School"
+              // description="This site was created for Britlex English Language School. Online code and markdown editor build with HTML5, CSS, SASS and JavaScript. The successful operation of the website resulted in more than 60.1% of visits and positive reviews and feedback on the purchase of courses."
+              ghLink="https://github.com/AlenaLarinaAL/Briltlex-parcel-project"
+              demoLink="https://alenalarinaal.github.io/Briltlex-parcel-project/"     
             />
           </Col>
         </Row>
