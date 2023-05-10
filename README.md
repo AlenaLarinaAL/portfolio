@@ -3,7 +3,7 @@
   <a href=" https://alenalarinaal.github.io/portfolio/" target="_blank">AlenaLarinaAL</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png"  />
+  <img alt="Demo" src="./Images/readme-img1.png"  />
 </div>
 
 <br/>
