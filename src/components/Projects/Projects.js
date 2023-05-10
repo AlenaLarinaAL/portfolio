@@ -60,7 +60,7 @@ function Projects() {
             <ProjectCard
               imgPath={bookshop}
               isBlog={false}
-              title="BookShopApplication"
+              title="BookShop Application"
               // description="Reading books is very popular all over the world, but it is not always possible to carry a printed copy with you. Online bookstore is the application which written in the Java Script programming language is solution to this problem."
               ghLink="https://github.com/AlenaLarinaAL/team-proj-js-book-app"
               demoLink="https://yevhenii2022.github.io/team-proj-js-book-app/"
