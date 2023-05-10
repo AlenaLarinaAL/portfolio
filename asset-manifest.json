@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8010a82b.css",
-    "main.js": "/portfolio/static/js/main.5416ef24.js",
+    "main.js": "/portfolio/static/js/main.e1732870.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/imgsearch.png": "/portfolio/static/media/imgsearch.3410f7556faf73c7b560.png",
     "static/media/webstudio.png": "/portfolio/static/media/webstudio.99134e78109aca1397dc.png",
@@ -9,18 +9,18 @@
     "static/media/bookshop.png": "/portfolio/static/media/bookshop.f5dd139b597e3e1df92a.png",
     "static/media/icecream.png": "/portfolio/static/media/icecream.6f1dfce481427404f692.png",
     "static/media/britlex.png": "/portfolio/static/media/britlex.8dad66251b4e61cc330d.png",
-    "static/media/image-me.png": "/portfolio/static/media/image-me.e7bd36c937c5311fe92b.png",
+    "static/media/24.png": "/portfolio/static/media/24.accf332c4531ffbd6cd9.png",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/coding.png": "/portfolio/static/media/coding.783e2e32429819a7a96a.png",
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
     "main.8010a82b.css.map": "/portfolio/static/css/main.8010a82b.css.map",
-    "main.5416ef24.js.map": "/portfolio/static/js/main.5416ef24.js.map",
+    "main.e1732870.js.map": "/portfolio/static/js/main.e1732870.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8010a82b.css",
-    "static/js/main.5416ef24.js"
+    "static/js/main.e1732870.js"
   ]
 }
